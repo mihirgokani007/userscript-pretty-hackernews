@@ -29,6 +29,8 @@ var RULESETS = [
         {selector: '.extremely-popular', rules: {background: 'rgba(250,150,150,0.8)'}},
     ];
 
+var REFRESH_INTERVAL = 2000;
+
 function addStylesheet() {
 	// Create the <style> tag
 	var style = document.createElement("style");
@@ -99,6 +101,6 @@ function refreshStyling() {
 }
 
 $(document).ready(function() {
-    setTimeout(refreshStyling, 2000);
+    setTimeout(refreshStyling, REFRESH_INTERVAL);
     addStylesheetRulesets(RULESETS);
 });
