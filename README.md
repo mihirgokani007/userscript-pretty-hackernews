@@ -2,6 +2,10 @@
 
 Modify hackernews to hilight interesting links.
 
+## Preview:
+
+![Pretty Hackernews Demo](https://i.imgur.com/f8j8WTp.png)
+
 ## Customizations available:
 - **INTERESTING:** Regex to search for interesting topics
 - **POPULARITY_CLASS_MAPPING:** A mapping of scores to their popularity - Change the scores to expand or shrink the ranges for popularity scores.
